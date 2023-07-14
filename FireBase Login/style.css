@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika';
+}
+
+body{
+    background-color: #fbcf96;
+}
+
+.card{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: #ffc46b;
+    width: 300px;
+    height: 380px;
+}
+
+#sign-up{
+    padding: 15px 10px;
+    color: #147714;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+#email-heading, #password-heading{
+    margin-left: 25px;
+    color: #147714;
+}
+
+#input-email, #password{
+    padding: 10px 55px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#sign-up-btn{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+    padding: 7px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sign-up-btn:hover{
+    background-color: #147714;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: green !important;
+}
+
+
+#login-link{
+    margin: 123px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#login-link:hover{
+    color: #147714;
+    text-decoration: underline;
+}
+
+.card-login{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#log-in{
+    padding: 15px 10px;
+    color: #147714;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+#log-in-btn{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+    padding: 7px 105px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#log-in-btn:hover{
+    background-color: #147714;
+}
+
+.card-profile{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile{
+    padding: 15px 10px;
+    color: #147714;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+#your-email{
+    margin-left: 25px;
+    color: #147714;
+}
+
+#email-verification{
+    margin-left: 25px;
+    padding-bottom: 20px;
+    color: #147714;
+}
+
+#user-email{
+    padding: 10px 55px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid green;
+}
+
+#password-login, #input-email-login{
+    padding: 10px 55px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#email-verification-btn{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+    padding: 7px 56px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#email-verification-btn:hover{
+    background-color: #147714;
+}
+
+#log-out-btn{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+    padding: 7px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#log-out-btn:hover{
+    background-color: #147714;
+}
