@@ -2,12 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebas
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCfUv2Kdxec479yUnwaV8NRgjmhE5x1QLw",
-    authDomain: "login-firebase-f823b.firebaseapp.com",
-    projectId: "login-firebase-f823b",
-    storageBucket: "login-firebase-f823b.appspot.com",
-    messagingSenderId: "769682444373",
-    appId: "1:769682444373:web:c33abec722c62dc4da84dc"
+    //Your API keys
 };
 
 const app = initializeApp(firebaseConfig);
